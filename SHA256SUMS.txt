@@ -1,6 +1,6 @@
 d954bd0ee689475ebd1570957610834a79dec03e8c870e1c0b9e0650826ff83e  nexo-midi-controller-Compl-Analog-II/.gitignore
 58ffecdb3e6879a7f2ca3a0749451026c7b208144dccf4e8dccffe846d7bc06b  nexo-midi-controller-Compl-Analog-II/CHANGELOG.md
-4802d2ee2204941b0d0595271411c6359a179f7f5efaf2bf9c8423e7a8d3a6e4  nexo-midi-controller-Compl-Analog-II/README.md
+aac0235df949e1cb63e1a620e3ad35ea95e2b8389e4928df140dd403cfbf3b2b  nexo-midi-controller-Compl-Analog-II/README.md
 eaa1ffb267b9d01a7d0333dba3fe1bcd8250045024a540bd8293c2daec33da8f  nexo-midi-controller-Compl-Analog-II/diagnostics/hardware_test/hardware_test.ino
 267274ea5f380209767198e2085ecb14e7cc111d65610bb81d474a6791f46bcf  nexo-midi-controller-Compl-Analog-II/diagnostics/midi_link_test/midi_link_test.ino
 9a2718dd7e2b3c4781a3f30faae1d214cd00ff56afbda1c50f23dfa9c5441cb3  nexo-midi-controller-Compl-Analog-II/diagnostics/midi_output_test/midi_output_test.ino
