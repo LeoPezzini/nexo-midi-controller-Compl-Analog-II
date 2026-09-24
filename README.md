@@ -91,9 +91,3 @@ orientacion.
 - [Demostraciones de software](docs/software/README.md)
 - [Estructura propuesta del informe](docs/report/esquema-informe.md)
 - [Historia, evolucion y alcance de MIDI](docs/report/historia-midi.md)
-
-## Integracion VS1053
-
-El modulo VS1053 pertenece a un segundo equipo receptor y no forma parte del
-desarrollo central. Se conserva como posible anexo de integracion, dado que su
-firmware deriva de un proyecto externo.
