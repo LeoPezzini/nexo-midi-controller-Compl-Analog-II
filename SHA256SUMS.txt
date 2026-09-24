@@ -1,0 +1,17 @@
+d954bd0ee689475ebd1570957610834a79dec03e8c870e1c0b9e0650826ff83e  nexo-midi-controller-Compl-Analog-II/.gitignore
+58ffecdb3e6879a7f2ca3a0749451026c7b208144dccf4e8dccffe846d7bc06b  nexo-midi-controller-Compl-Analog-II/CHANGELOG.md
+4802d2ee2204941b0d0595271411c6359a179f7f5efaf2bf9c8423e7a8d3a6e4  nexo-midi-controller-Compl-Analog-II/README.md
+eaa1ffb267b9d01a7d0333dba3fe1bcd8250045024a540bd8293c2daec33da8f  nexo-midi-controller-Compl-Analog-II/diagnostics/hardware_test/hardware_test.ino
+267274ea5f380209767198e2085ecb14e7cc111d65610bb81d474a6791f46bcf  nexo-midi-controller-Compl-Analog-II/diagnostics/midi_link_test/midi_link_test.ino
+9a2718dd7e2b3c4781a3f30faae1d214cd00ff56afbda1c50f23dfa9c5441cb3  nexo-midi-controller-Compl-Analog-II/diagnostics/midi_output_test/midi_output_test.ino
+48d547efea184354c92a3940f264b21befca8f328a4a34d3eef438b3495af3ee  nexo-midi-controller-Compl-Analog-II/docs/hardware/alimentacion.md
+d063d06605c2e5d787ce676c3d7d1732cf9d00e5990cef1a7b89c2bb426255b7  nexo-midi-controller-Compl-Analog-II/docs/hardware/arquitectura.md
+9ad24b7fa09e675431b4ed160aa8b2fe08856adc4f44b570e7c0836f1e773c52  nexo-midi-controller-Compl-Analog-II/docs/hardware/pinout.md
+616d0b08a7c8c8ac0e9dd748f09b1ddbd5728dac17d98ce41c79805b8dab708b  nexo-midi-controller-Compl-Analog-II/docs/report/esquema-informe.md
+d1e894551c7396c5d671f97183b5a46ef74d814b82738f556672cb800afae0f0  nexo-midi-controller-Compl-Analog-II/docs/report/historia-midi.md
+688b0e65b1253fd1cbb8e53bea3ae9df0a2e2016b9ae4347a26ed59d5b68db5f  nexo-midi-controller-Compl-Analog-II/docs/software/README.md
+8a873e8c1fa56dd0b7dc06ddb54944b1baba35ae0505d73b106b6c149ae7cac7  nexo-midi-controller-Compl-Analog-II/docs/software/fl-studio.md
+85116917c91274dc906b31fc8501f9a15f82c971e61e751f43a5ba460077a3f2  nexo-midi-controller-Compl-Analog-II/docs/software/obs-studio.md
+7a58ee84975062107ea87266f09c3e08c95d2a2838321b079e4a0c345eb2cb32  nexo-midi-controller-Compl-Analog-II/docs/software/qlc-plus.md
+c7ec3c717ca090ea288a0c40406f3526145b9dfe557ea780bc5262d25f6dc544  nexo-midi-controller-Compl-Analog-II/docs/testing.md
+8d2bb9f43c5f45b48b035bb338e9c70f5f887c64dc04d1802f6653ea86625bbd  nexo-midi-controller-Compl-Analog-II/firmware/nexo_midi_controller/nexo_midi_controller.ino
