@@ -31,8 +31,8 @@ Resultados finales:
 - Canal MIDI configurable y persistente.
 - Cambios de nota y CC conservados despues de retirar la alimentacion.
 - Creacion, duplicacion, restablecimiento y borrado de presets verificados.
-- Funcionamiento musical validado mediante telefono Android, OTG y aplicacion
-  compatible con MIDI.
+- Funcionamiento musical validado mediante telefono Android, OTG, FL Studio,
+  instrumentos virtuales y grabacion.
 
 ## Aplicaciones de escritorio
 
@@ -52,8 +52,12 @@ funcionamiento aun con OBS minimizado.
 
 ### FL Studio
 
-Ensayo pendiente. Se utilizara para verificar notas sobre un instrumento
-virtual y la asignacion de Control Change mediante MIDI Learn.
+Se validaron los doce pulsadores sobre un conjunto de bateria en un MPC virtual
+y sobre sintetizadores. Los potenciometros se vincularon a distintos parametros
+mediante Control Change y se grabo una breve muestra de audio. Se verifico que
+la diferencia inicial entre C4 y C5 correspondia a la convencion de octavas de
+FL Studio; el firmware 1.2.2 alinea la etiqueta mostrada sin modificar el numero
+MIDI transmitido.
 
 ## Alimentacion
 
