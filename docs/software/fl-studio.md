@@ -2,20 +2,27 @@
 
 ## Objetivo
 
-Validar el uso tradicional de MIDI controlando un instrumento virtual o un
-sampler desde los doce pulsadores y asignando los cuatro CC a parametros de
-mezcla o sintesis.
+Validar el uso tradicional de MIDI controlando instrumentos virtuales desde los
+doce pulsadores y asignando mensajes Control Change a parametros de sintesis.
 
-## Ensayo previsto
+## Configuracion ensayada
 
-- B1-B12: doce notas cromaticas configuradas en el preset activo.
-- P1: volumen o cutoff.
-- P2: resonancia.
-- P3: efecto o envolvente.
-- P4: parametro libre.
+- Entrada MIDI: `MidiPort`.
+- B1-B12: notas MIDI para disparar un conjunto de bateria en un MPC virtual.
+- B1-B12: ejecucion de sintetizadores virtuales.
+- Potenciometros: vinculacion a distintos parametros mediante la funcion
+  `Link to controller` de FL Studio.
 
-Se documentaran el dispositivo MIDI seleccionado, el instrumento o VST, el
-procedimiento de MIDI Learn y los resultados obtenidos.
+## Resultado
+
+Los pulsadores dispararon correctamente las muestras de bateria y las notas de
+los sintetizadores. Los potenciometros modificaron en tiempo real los
+parametros vinculados mediante mensajes Control Change. Se grabo una breve
+muestra de audio como comprobacion integral de interpretacion y control
+continuo.
+
+El ensayo confirma que Nexo MIDI puede utilizarse como superficie de
+interpretacion y control dentro de una estacion de trabajo de audio digital.
 
 ## Convencion de octavas
 
