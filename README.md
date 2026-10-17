@@ -30,13 +30,17 @@ Docente responsable: Ernesto Accolti.
 
 ## Estado
 
-La version de firmware documentada es **v1.2.2**. La version v1.2.1 fue validada sobre el equipo
-real con un adaptador MIDI-USB inalambrico y una aplicacion musical movil. Se
-comprobaron los doce pares Note On/Off, los cuatro Control Change, la edicion y
-persistencia de presets, el encoder, la TFT y el indicador de bateria.
+La version de firmware documentada es **v1.2.2**. Se comprobaron sobre el equipo
+real los doce pares Note On/Off, los cuatro Control Change, la edicion y
+persistencia de presets, el encoder, la TFT y el indicador de bateria. La
+version 1.2.2 alinea las etiquetas de octava con FL Studio sin modificar los
+numeros MIDI almacenados o transmitidos.
 
-Las demostraciones de integracion con QLC+, OBS Studio y FL Studio se encuentran
-en desarrollo y se incorporaran progresivamente en `docs/software/`.
+Se completaron tres demostraciones de interoperabilidad:
+
+- **QLC+ 5.2.2:** RGB, intensidad, escenas, apagado y secuencia.
+- **OBS Studio 32.2.2:** escenas, grabacion, mute y niveles de audio.
+- **FL Studio:** bateria virtual, sintetizadores, parametros CC y grabacion.
 
 ## Estructura
 
@@ -89,5 +93,8 @@ orientacion.
 - [Sistema de alimentacion](docs/hardware/alimentacion.md)
 - [Ensayos y validacion](docs/testing.md)
 - [Demostraciones de software](docs/software/README.md)
+- [QLC+](docs/software/qlc-plus.md)
+- [OBS Studio](docs/software/obs-studio.md)
+- [FL Studio](docs/software/fl-studio.md)
 - [Estructura propuesta del informe](docs/report/esquema-informe.md)
 - [Historia, evolucion y alcance de MIDI](docs/report/historia-midi.md)
