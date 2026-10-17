@@ -35,8 +35,13 @@ real con un adaptador MIDI-USB inalambrico y una aplicacion musical movil. Se
 comprobaron los doce pares Note On/Off, los cuatro Control Change, la edicion y
 persistencia de presets, el encoder, la TFT y el indicador de bateria.
 
-Las demostraciones de integracion con QLC+, OBS Studio y FL Studio se encuentran
-en desarrollo y se incorporaran progresivamente en `docs/software/`.
+Tambien se completaron dos demostraciones de interoperabilidad sin modificar el
+firmware:
+
+- **QLC+ 5.2.2:** control RGB e intensidad, escenas de color, apagado y secuencia.
+- **OBS Studio 32.2.2:** tres escenas, mute, grabacion y dos niveles de audio.
+
+La integracion con FL Studio queda como ultimo ensayo pendiente.
 
 ## Estructura
 
@@ -46,7 +51,7 @@ firmware/
 diagnostics/              Pruebas aisladas de hardware y MIDI
 docs/
   hardware/               Arquitectura, pinout y alimentacion
-  software/               Guias de integracion con aplicaciones
+  software/               Guias y mapeos de aplicaciones
   report/                 Material base para el informe academico
 ```
 
@@ -89,5 +94,8 @@ orientacion.
 - [Sistema de alimentacion](docs/hardware/alimentacion.md)
 - [Ensayos y validacion](docs/testing.md)
 - [Demostraciones de software](docs/software/README.md)
+- [QLC+](docs/software/qlc-plus.md)
+- [OBS Studio](docs/software/obs-studio.md)
+- [FL Studio](docs/software/fl-studio.md)
 - [Estructura propuesta del informe](docs/report/esquema-informe.md)
 - [Historia, evolucion y alcance de MIDI](docs/report/historia-midi.md)
