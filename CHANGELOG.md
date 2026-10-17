@@ -1,5 +1,12 @@
 # Historial de versiones
 
+## v1.2.2
+
+- Nomenclatura de octavas alineada con FL Studio: MIDI 0 se muestra como C0 y
+  MIDI 60 como C5.
+- El cambio es exclusivamente visual; no modifica las notas almacenadas ni los
+  mensajes MIDI transmitidos.
+
 ## v1.2.1
 
 - Medicion de bateria mediante A1 y divisor 10k/10k.
