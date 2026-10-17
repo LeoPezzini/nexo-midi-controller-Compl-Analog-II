@@ -34,9 +34,29 @@ Resultados finales:
 - Funcionamiento musical validado mediante telefono Android, OTG y aplicacion
   compatible con MIDI.
 
+## Aplicaciones de escritorio
+
+### QLC+ 5.2.2
+
+Se valido una luminaria `Generic RGB`. CC20, CC21 y CC22 controlaron rojo,
+verde y azul; CC23 controlo la intensidad general. Los botones ejecutaron cuatro
+escenas de color, un apagado con fade out de dos segundos y una secuencia
+cromatica.
+
+### OBS Studio 32.2.2
+
+Mediante obs-midi-mg 3.1.5 se validaron tres cambios de escena, mute de
+microfono, inicio y detencion de grabacion, volumen de Mic/Aux con CC20 y volumen
+de la salida de audio con CC21. Una grabacion de prueba confirmo el
+funcionamiento aun con OBS minimizado.
+
+### FL Studio
+
+Ensayo pendiente. Se utilizara para verificar notas sobre un instrumento
+virtual y la asignacion de Control Change mediante MIDI Learn.
+
 ## Alimentacion
 
 Se verifico el funcionamiento autonomo con bateria, TP4056 y MT3608 ajustado a
 5,00 V. El divisor de A1 mostro aproximadamente la mitad de la tension medida
 directamente sobre la celda, como corresponde a la relacion 10k/10k.
-
