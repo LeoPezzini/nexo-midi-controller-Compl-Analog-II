@@ -1,5 +1,5 @@
 /*
- * Nexo MIDI Controller v1.2.1
+ * Nexo MIDI Controller v1.2.2
  * Trabajo final - Complementos de Analogica 2
  * Ingenieria Electronica, Universidad Nacional de San Juan
  * Autores: Marcelo Cuello y Leonardo Pezzini
@@ -676,7 +676,9 @@ void printNoteName(byte note) {
     case 10: tft.print(F("A#")); break;
     default: tft.print(F("B")); break;
   }
-  tft.print((int)(note / 12) - 1);
+  // Convencion de octavas usada por FL Studio: MIDI 0 = C0 y MIDI 60 = C5.
+  // Solo cambia la etiqueta mostrada; el numero MIDI enviado permanece intacto.
+  tft.print(note / 12);
 }
 
 void drawEditDetail() {
