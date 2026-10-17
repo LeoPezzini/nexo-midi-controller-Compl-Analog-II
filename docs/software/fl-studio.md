@@ -16,3 +16,10 @@ mezcla o sintesis.
 
 Se documentaran el dispositivo MIDI seleccionado, el instrumento o VST, el
 procedimiento de MIDI Learn y los resultados obtenidos.
+
+## Convencion de octavas
+
+FL Studio denomina `C5` a la nota MIDI 60. Desde la version 1.2.2, la pantalla
+del controlador usa la misma convencion: MIDI 0 se muestra como `C0` y MIDI 60
+como `C5`. Esta nomenclatura solo afecta al texto de la pantalla; los numeros
+MIDI transmitidos no cambian.
