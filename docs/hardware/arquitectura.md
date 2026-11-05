@@ -11,7 +11,7 @@ flowchart TD
     C[12 pulsadores y 4 potenciometros] --> M[CD74HC4067]
     M --> U[ATmega328P]
     E[Encoder] --> U
-    U --> T[TFT ILI9163C]
+    U --> T[TFT ST7735 128x128]
     U <--> P[EEPROM]
     U --> D[MIDI OUT DIN]
     B[Bateria, TP4056 y MT3608] --> U
@@ -46,3 +46,13 @@ existente.
 5. Solo se transmite un CC cuando la variacion supera el umbral configurado.
 6. La pantalla actualiza unicamente la region modificada para evitar parpadeo.
 
+
+## Esquematico electrico
+
+El esquema definitivo incluye el ATmega328P sobre la placa standalone, el
+CD74HC4067, los doce pulsadores, los cuatro potenciometros, el encoder HW-040,
+la TFT SPI, la salida MIDI DIN, la medicion de bateria y la cadena
+TP4056-MT3608.
+
+- [Esquematico en PDF](schematic/nexo-midi-schematic.pdf)
+- [Proyecto editable de KiCad](schematic/nexo-midi.kicad_sch)

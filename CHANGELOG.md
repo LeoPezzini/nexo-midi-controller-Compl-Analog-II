@@ -1,5 +1,13 @@
 # Historial de versiones
 
+## v1.2.3
+
+- Mapa del CD74HC4067 sincronizado con el cableado fisico definitivo.
+- Pulsadores: C0-C11 segun la disposicion por columnas.
+- Potenciometros: C12-C15 de izquierda a derecha.
+- Esquematico electrico y polaridad de carga documentados.
+
+
 ## v1.2.2
 
 - Nomenclatura de octavas alineada con FL Studio: MIDI 0 se muestra como C0 y

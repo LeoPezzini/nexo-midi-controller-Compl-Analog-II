@@ -3,14 +3,28 @@
 ## Cadena de potencia
 
 ```text
-Bateria 3,7 V -> TP4056 -> interruptor -> MT3608 a 5,00 V -> VCC del sistema
+Bateria 3,7 V -> TP4056 -> interruptor -> MT3608 a 5,00 V -> pin 5 V del sistema
 ```
 
 - La bateria se conecta a `B+` y `B-` del TP4056.
-- La carga se toma desde `OUT+` y `OUT-`.
+- La carga del sistema se toma desde `OUT+` y `OUT-`.
 - El interruptor se ubica entre el TP4056 y la entrada del MT3608.
 - La salida del MT3608 se ajusta a 5,00 V antes de conectarla al equipo.
-- Los 5 V regulados ingresan por `VCC`, evitando el regulador lineal 7805.
+- Los 5 V regulados ingresan directamente por el pin de 5 V; la entrada `VIN`
+  de la placa queda sin utilizar.
+- El LED de la TFT se alimenta desde la etapa auxiliar regulada a 3,3 V.
+
+## Entrada de carga
+
+La carga se realiza con una fuente regulada de **5 V CC con negativo al
+centro** y con el controlador apagado.
+
+- Contacto central del jack: `IN-` del TP4056.
+- Contacto exterior del jack: `IN+` del TP4056.
+
+No debe conectarse una fuente con polaridad inversa ni con una tension
+diferente. El TP4056 carga una unica celda de litio; no reemplaza una etapa de
+reparto de carga para alimentar simultaneamente el sistema.
 
 ## Medicion de bateria
 

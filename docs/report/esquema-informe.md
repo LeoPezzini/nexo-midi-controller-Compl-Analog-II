@@ -1,4 +1,11 @@
-# Estructura propuesta del informe
+# Informe academico
+
+La version corregida y revisada del informe se encuentra disponible en:
+
+- [Informe Nexo MIDI corregido](Informe_Nexo_MIDI_corregido_final.docx)
+
+El documento incorpora el esquema electrico definitivo, el mapa fisico del
+multiplexor y la polaridad de la entrada de carga.
 
 ## Titulo
 

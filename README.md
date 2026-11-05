@@ -25,16 +25,18 @@ Docente responsable: Ernesto Accolti.
 - Edicion de notas, controladores y canales MIDI desde el propio dispositivo.
 - Persistencia de configuraciones en EEPROM.
 - Salida MIDI DIN a 31250 bit/s.
-- Interfaz grafica sobre TFT ILI9163C de 128 x 128 pixeles.
+- Interfaz grafica sobre TFT SPI ST7735 de 1,44 pulgadas y 128 x 128 pixeles,
+  operada mediante la biblioteca compatible `TFT_ILI9163C`.
 - Alimentacion autonoma y medicion del nivel de bateria.
 
 ## Estado
 
-La version de firmware documentada es **v1.2.2**. Se comprobaron sobre el equipo
+La version de firmware documentada es **v1.2.3**. Se comprobaron sobre el equipo
 real los doce pares Note On/Off, los cuatro Control Change, la edicion y
 persistencia de presets, el encoder, la TFT y el indicador de bateria. La
 version 1.2.2 alinea las etiquetas de octava con FL Studio sin modificar los
-numeros MIDI almacenados o transmitidos.
+numeros MIDI almacenados o transmitidos. La version 1.2.3 sincroniza el mapa
+logico del multiplexor con el cableado definitivo documentado en KiCad.
 
 Se completaron tres demostraciones de interoperabilidad:
 
@@ -46,10 +48,10 @@ Se completaron tres demostraciones de interoperabilidad:
 
 ```text
 firmware/
-  nexo_midi_controller/   Firmware principal v1.2.2
+  nexo_midi_controller/   Firmware principal v1.2.3
 diagnostics/              Pruebas aisladas de hardware y MIDI
 docs/
-  hardware/               Arquitectura, pinout y alimentacion
+  hardware/               Arquitectura, pinout, alimentacion y esquematico
   software/               Guias de integracion con aplicaciones
   report/                 Material base para el informe academico
 ```
@@ -60,11 +62,12 @@ docs/
 - Multiplexor analogico CD74HC4067.
 - 12 pulsadores y 4 potenciometros.
 - Encoder incremental con pulsador.
-- TFT SPI basada en ILI9163C.
+- TFT SPI ST7735 de 1,44 pulgadas y 128 x 128 pixeles.
 - Salida MIDI DIN de 5 pines.
 - Celda Li-ion/LiPo de 3,7 V.
 - Cargador TP4056 con proteccion.
 - Elevador MT3608 ajustado a 5,00 V.
+- Entrada de carga de 5 V CC con negativo al centro.
 - Divisor resistivo 10 kohm / 10 kohm para medir la bateria mediante A1.
 
 ## Bibliotecas
@@ -91,10 +94,13 @@ orientacion.
 - [Arquitectura del sistema](docs/hardware/arquitectura.md)
 - [Mapa de pines y multiplexor](docs/hardware/pinout.md)
 - [Sistema de alimentacion](docs/hardware/alimentacion.md)
+- [Esquematico electrico en PDF](docs/hardware/schematic/nexo-midi-schematic.pdf)
+- [Fuente editable de KiCad](docs/hardware/schematic/nexo-midi.kicad_sch)
 - [Ensayos y validacion](docs/testing.md)
 - [Demostraciones de software](docs/software/README.md)
 - [QLC+](docs/software/qlc-plus.md)
 - [OBS Studio](docs/software/obs-studio.md)
 - [FL Studio](docs/software/fl-studio.md)
 - [Estructura propuesta del informe](docs/report/esquema-informe.md)
+- [Informe corregido](docs/report/Informe_Nexo_MIDI_corregido_final.docx)
 - [Historia, evolucion y alcance de MIDI](docs/report/historia-midi.md)

@@ -1,5 +1,5 @@
 /*
- * Nexo MIDI Controller v1.2.2
+ * Nexo MIDI Controller v1.2.3
  * Trabajo final - Complementos de Analogica 2
  * Ingenieria Electronica, Universidad Nacional de San Juan
  * Autores: Marcelo Cuello y Leonardo Pezzini
@@ -24,8 +24,9 @@ constexpr byte MUX_SELECT_PINS[4] = {5, 4, 3, 2};
 constexpr byte MUX_SIGNAL = A0;
 constexpr byte BATTERY_PIN = A1;
 
-constexpr byte BUTTON_CHANNEL[12] = {0, 12, 6, 9, 8, 2, 14, 5, 4, 10, 1, 13};
-constexpr byte POT_CHANNEL[4] = {3, 11, 7, 15};
+// Mapeo fisico definitivo documentado en KiCad.
+constexpr byte BUTTON_CHANNEL[12] = {0, 3, 6, 9, 1, 4, 7, 10, 2, 5, 8, 11};
+constexpr byte POT_CHANNEL[4] = {12, 13, 14, 15};
 
 constexpr byte PRESET_COUNT = 8;
 constexpr uint16_t EEPROM_MAGIC = 0x4D43; // "MC"
